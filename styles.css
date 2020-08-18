@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+body{
+  margin-bottom: 100px;
+}
 
 .form-container{
   width: 400px;
@@ -24,6 +27,11 @@
   background-size:cover;
 }
 
+.jumbotron > *{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 .jumbotron-xl{
   padding: 80px 150px;
 }
@@ -40,5 +48,16 @@
   left: 50%;
   border-radius: 50%;
   transform: translateX(-50%);
+}
+
+.jumbotron-text{
+  color: black;
+  text-shadow: 0.5px 0.5px black;
+  color: white;
+}
+
+.jumbotron-text p{
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
