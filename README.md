@@ -30,3 +30,4 @@ Elements in the Kit:
 
 ** TEMPLATES
   > Index Page as Show Page => index.html
+  > Login Page => log-in.html
