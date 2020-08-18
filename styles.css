@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.form-container{
+  width: 400px;
+  margin: auto;
+}
+
+.main-container, .list-container, .comment-container, .form-container-xl, .show-container{
+  margin: auto;
+  width: 900px;
+}
+
+
+.bg-transparent{
+  background: transparent;
+  border-radius: 1rem;
+}
+.jumbotron{
+  background-image: url("images/concert.jpg");
+  background-size:cover;
+}
+
+.jumbotron-xl{
+  padding: 80px 150px;
+}
+
+.jumbotron-sm{
+  padding: 20px 150px;
+}
+
+.card .img-avatar{
+  width: 90px;
+  height: auto;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
